@@ -1,0 +1,37 @@
+@font-face { font-family: lato; src: url(Lato-Light.ttf); }
+/*@font-face { font-family: lato-light; src: url(Lato-Hairline.ttf); }*/
+
+* { margin: 0; padding: 0; }
+html, html > body { height: 100%; }
+p { margin-bottom: 0; }
+p, h1, h2, h3, h4, h5, h6, span, div { font-family: lato; }
+
+#splash { width: 100%; height: 100%; min-height: 210px; position: absolute; left: 0; top: 0; background: #fff; text-align: center; overflow: hidden; }
+#splash > #splash_img { margin-top: 17vh; }
+#splash > #splash_txt { position: absolute; width: 100%; bottom: 7%; font-size: 37px; text-align: center; }
+
+.center { text-align: center; }
+.col-center{ float: none; margin: 0 auto; }
+.bold { font-weight: bold; }
+.visible { visibility: visible; }
+.hidden { visibility: hidden; }
+.md-text { font-size: 27px; }
+/*Swal2*/
+.swal2-title { font-size: 37px!important; font-weight: 100!important; }
+/*Swal2*/
+button, input { background: transparent!important; border: none; }
+input[type='text'] { border: 1px solid #ccc; }
+input[type='text']:focus { outline: none; }
+button:focus, input[type='button']:focus { outline: none!important; }
+button.link-btn, input[type='button'].link-btn { color: #0084ff!important; }
+button.link-btn:active, input[type='button'].link-btn:active { color: #0040cc!important; }
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+
+/*
+::-webkit-scrollbar { width: 17px; -webkit-transition: all 1.7s; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #ddd; border: 1px solid #fff; }
+*/
