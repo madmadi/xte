@@ -1,5 +1,5 @@
 <p align="center">
-  <img src='https://github.com/Mahdimeraji07/xte/blob/master/src/splash.gif' width='27%'>
+  <img src='https://github.com/madmadi/xte/blob/master/src/splash.gif' width='27%'>
 </p>
 
 # XTE :ghost:
